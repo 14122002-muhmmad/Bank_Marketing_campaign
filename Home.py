@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-df = pd.read_csv(r'G:\Machine_learning\Final_Project\Bank_Marketing_Cleaned.csv')
+df = pd.read_csv(r'Bank_Marketing_Cleaned.csv')
 st.markdown("<h1 style='text-align: center; color: Green ;'>Bank Marketing Campaign </h1>",unsafe_allow_html=True)
 #i want to write description of the data and give the link of it
 st.image('https://media.licdn.com/dms/image/v2/C4E12AQGyUGK7U54nWw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1580024684661?e=1730332800&v=beta&t=Imyhey6O1aQNmR4WFiJB0vXfGeUfw0ohKelSf_327eQ', use_column_width=True)
