@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 # Load the preprocessor and model
-with open(r'preprocessor.pkl, 'rb') as f:
+with open(r'preprocessor.pkl', 'rb') as f:
     preprocessor = pickle.load(f)
 
 with open(r'RFC3.pkl', 'rb') as f:
