@@ -5,7 +5,7 @@ import plotly.express as px
 st. set_page_config(layout="wide")
 
 
-df = pd.read_csv(r"G:\Machine_learning\Final_Project\Bank_Marketing_Cleaned.csv")
+df = pd.read_csv(r"Bank_Marketing_Cleaned.csv")
 st.markdown("<h1 style='text-align: center; color: Purple ;'> Answers to Busness Question using 📊s </h1>",unsafe_allow_html=True)
 
 col11, col12,col13 = st.columns([2,4,1])
