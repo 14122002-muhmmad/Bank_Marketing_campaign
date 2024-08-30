@@ -10,7 +10,7 @@ import pandas as pd
 with open(r'preprocessor.pkl, 'rb') as f:
     preprocessor = pickle.load(f)
 
-with open(r'', 'rb') as f:
+with open(r'RFC3.pkl', 'rb') as f:
     model_data = pickle.load(f)
 model = model_data['model']
 threshold = model_data['threshold']
