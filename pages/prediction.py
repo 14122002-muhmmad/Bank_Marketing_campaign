@@ -7,10 +7,10 @@ import numpy as np
 import pandas as pd
 
 # Load the preprocessor and model
-with open(r'G:\Machine_learning\Final_Project\preprocessor.pkl', 'rb') as f:
+with open(r'preprocessor.pkl, 'rb') as f:
     preprocessor = pickle.load(f)
 
-with open(r'G:\Machine_learning\Final_Project\RFC3.pkl', 'rb') as f:
+with open(r'', 'rb') as f:
     model_data = pickle.load(f)
 model = model_data['model']
 threshold = model_data['threshold']
