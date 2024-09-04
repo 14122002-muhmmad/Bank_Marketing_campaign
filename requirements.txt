@@ -3,3 +3,4 @@ pandas
 scikit-learn
 plotly==5.18.0
 numpy
+pickleshare==0.7.5
