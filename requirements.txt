@@ -1,6 +1,9 @@
-streamlit
-pandas
-scikit-learn
-plotly==5.18.0
-numpy
+matplotlib==3.8.4
+numpy==1.26.4
+pandas==2.2.2
 pickleshare==0.7.5
+plotly==5.22.0
+scikit-learn==1.4.2
+streamlit==1.34.0
+xgboost==2.1.1
+category-encoders==2.6.3
